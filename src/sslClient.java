@@ -69,12 +69,7 @@ public class sslClient {
 	      
 	      
 	      
-       /* BufferedReader inFromServer = new BufferedReader(new InputStreamReader(sslSocket.getInputStream()));
-	      String modifiedSentence;
-	      
-	      modifiedSentence = inFromServer.readLine();
-	     System.out.println("FROM SERVER: " + modifiedSentence);
-	      */
+     
 	      
 	    } finally {
 	      if (sslSocket != null) {
