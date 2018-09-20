@@ -63,14 +63,6 @@ private static final SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss dd/MM
 	        System.out.println("the connection has terminated gracefully!!!");
 	      
 
-           /* DataOutputStream outToClient = new DataOutputStream(sslSocket.getOutputStream());
-            
-                    Timestamp timestamp = new Timestamp(System.currentTimeMillis());
-				String capitalizedSentence;
-
-				capitalizedSentence = sdf.format(timestamp) + '\n';
-				outToClient.writeBytes(capitalizedSentence);
-			*/
 
 
 	      
